@@ -186,9 +186,7 @@ const Fleet = () => {
           </h2>
           <div className="w-20 h-1 bg-gold-500 mx-auto mb-6"></div>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Premium car rentals Montenegro featuring luxury vehicles for rent throughout Montenegro. 
-            Our Montenegro car rental fleet offers the finest vehicles in Podgorica and across Montenegro, 
-            each maintained to the highest standards for your comfort and safety.
+            Car Rentals Montenegro made simple, with modern, trusted, and comfortable vehicles available throughout the country. Our Montenegro car rental fleet is well-maintained to ensure safety, reliability, and convenience for every journey. Whether you need a rental in Podgorica, Tivat, or along the Adriatic coast, our car hire services provide affordable and stress-free travel — all with transparent pricing and no deposit required.
           </p>
         </div>
 
