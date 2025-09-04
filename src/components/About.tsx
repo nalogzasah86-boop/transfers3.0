@@ -67,7 +67,7 @@ const About = () => {
             </div>
             
             {/* Floating stats card */}
-            <div className="absolute -bottom-4 sm:-bottom-8 -left-4 sm:-left-8 bg-white rounded-xl shadow-xl p-4 sm:p-6">
+            <div className="absolute -bottom-4 sm:-bottom-8 left-4 sm:left-8 bg-white rounded-xl shadow-xl p-4 sm:p-6">
               <div className="grid grid-cols-2 gap-2 sm:gap-4">
                 {stats.map((stat, index) => (
                   <div key={index} className="text-center">

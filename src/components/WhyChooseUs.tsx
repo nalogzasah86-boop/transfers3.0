@@ -36,10 +36,10 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-20 bg-black text-white relative overflow-hidden">
+    <section className="py-20 bg-black text-white relative overflow-hidden w-full">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="grid grid-cols-12 gap-4 h-full">
+        <div className="grid grid-cols-12 gap-4 h-full w-full">
           {[...Array(48)].map((_, i) => (
             <div key={i} className="bg-gold-500 rounded-full w-2 h-2 animate-pulse" style={{
               animationDelay: `${i * 0.1}s`
@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 relative">
+      <div className="container mx-auto px-4 relative w-full max-w-full">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
             Why Choose <span className="text-gold-500">DV Transfers</span>

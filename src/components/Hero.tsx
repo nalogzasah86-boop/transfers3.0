@@ -3,7 +3,7 @@ import { ArrowRight, Star, Clock, Shield } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden w-full">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 mt-[100px]">
+      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 mt-[100px] w-full">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
           Car Rentals&Transfers
           <span className="text-gold-500"> Montenegro</span>
