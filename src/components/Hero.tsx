@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center space-x-3">
             <Star className="w-6 h-6 text-gold-500" />
-            <span className="text-base sm:text-lg">5-Star Rated</span>
+            <span className="text-base sm:text-lg">💳 Deposit Free</span>
           </div>
         </div>
       </div>
