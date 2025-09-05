@@ -44,7 +44,7 @@ const Header = () => {
 
       {/* Main navigation */}
       <nav className="container mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center relative">
           <div className="text-xl sm:text-2xl font-bold">
             <span className={`${isScrolled ? 'text-black' : 'text-white'}`}>DV</span>
             <span className="text-gold-500"> Transfers</span>
@@ -70,7 +70,7 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <button
-            className={`md:hidden ${isScrolled ? 'text-black' : 'text-white'}`}
+            className={`md:hidden absolute top-0 right-0 ${isScrolled ? 'text-black' : 'text-white'}`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
